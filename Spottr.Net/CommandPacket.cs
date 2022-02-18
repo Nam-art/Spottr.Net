@@ -11,11 +11,11 @@ public class CommandPacket
     /// <summary>
     /// The unique runtime identifier for the command this packet represents.
     /// </summary>
-    public Guid? Id { get; set; }
+    public Guid? Id { get; set; } = null;
     /// <summary>
     /// The name used to display the command in Spottr.
     /// </summary>
-    public string? DisplayName { get; set; }
+    public string? DisplayName { get; set; } = null;
 
     #endregion
 
