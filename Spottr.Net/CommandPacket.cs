@@ -6,7 +6,7 @@ namespace Spottr.Net;
 public class CommandPacket : SpottrPacket, IDisplayable<Guid?>
 {
 
-    #region Properties
+    #region IDisplayable<T> Implementation
 
     public Guid? Id { get; set; }
     public string? DisplayName { get; set; }
