@@ -11,11 +11,11 @@ public class ProgressPacket
     /// <summary>
     /// The number of "things" that have been successfully processed.
     /// </summary>
-    public int? Is { get; set; }
+    public int? Is { get; set; } = null;
     /// <summary>
     /// The number of "things" that are expected to be processed.
     /// </summary>
-    public int? Of { get; set; }
+    public int? Of { get; set; } = null;
 
     #endregion
 
