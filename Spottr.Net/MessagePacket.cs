@@ -3,7 +3,6 @@
 /// <summary>
 /// Represents a <see cref="MessagePacket"/> for consumption in Spottr.
 /// </summary>
-public class MessagePacket : SpottrPacket
-{
+public class MessagePacket : SpottrPacket {
 
 }

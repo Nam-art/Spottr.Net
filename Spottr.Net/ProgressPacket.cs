@@ -3,8 +3,7 @@ namespace Spottr.Net;
 /// <summary>
 /// Represents a <see cref="ProgressPacket"/> for consumption in Spottr.
 /// </summary>
-public class ProgressPacket : SpottrPacket
-{
+public class ProgressPacket : SpottrPacket {
 
     #region Properties
 
