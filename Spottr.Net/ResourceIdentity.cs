@@ -3,7 +3,7 @@ namespace Spottr.Net;
 /// <summary>
 /// Represents a <see cref="ResourceIdentity"/> to enable identification of resources within Spottr.
 /// </summary>
-public class ResourceIdentity : IDisplayable<object> {
+public class ResourceIdentity : IDisplayable<object?> {
 
     #region IDisplayable Implementation
 
