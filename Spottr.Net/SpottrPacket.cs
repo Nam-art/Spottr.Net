@@ -5,4 +5,13 @@ namespace Spottr.Net;
 /// </summary>
 public abstract class SpottrPacket {
 
+    #region Properties
+
+    /// <summary>
+    /// The moment in time at which this packet was created.
+    /// </summary>
+    public DateTime? MomentOfCreation { get; set; } = null;
+
+    #endregion
+
 }
