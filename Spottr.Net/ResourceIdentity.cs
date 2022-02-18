@@ -5,7 +5,7 @@ namespace Spottr.Net;
 /// </summary>
 public class ResourceIdentity : IDisplayable<object?> {
 
-    #region IDisplayable Implementation
+    #region IDisplayable<T> Implementation
 
     public object? Id { get; set; } = null;
     public string? DisplayName { get; set; } = null;
