@@ -19,4 +19,11 @@ public abstract class SpottrPacket {
 
     #endregion
 
+    #region Constructor
+
+    public SpottrPacket(DateTime momentOfCreation, ResourceIdentity creator) =>
+        (MomentOfCreation, Creator) = (momentOfCreation, creator);
+
+    #endregion
+
 }
