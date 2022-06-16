@@ -12,4 +12,13 @@ public class CommandPacket : SpottrPacket, IDisplayable<Guid?> {
 
     #endregion
 
+    #region Constructor
+
+    public CommandPacket(ResourceIdentity creator) :
+        base(DateTime.Now, creator) {
+            
+        }
+
+    #endregion
+
 }
