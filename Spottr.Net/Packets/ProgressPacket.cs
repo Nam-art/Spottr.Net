@@ -1,4 +1,4 @@
-namespace Spottr.Net;
+namespace Spottr.Net.Packets;
 
 /// <summary>
 /// Represents a <see cref="ProgressPacket"/> for consumption in Spottr.

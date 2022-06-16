@@ -1,4 +1,4 @@
-namespace Spottr.Net;
+namespace Spottr.Net.Packets;
 
 /// <summary>
 /// Represents a packet containing a packet.
