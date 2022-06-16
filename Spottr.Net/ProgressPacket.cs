@@ -18,4 +18,10 @@ public class ProgressPacket : SpottrPacket {
 
     #endregion
 
+    #region Constructors
+
+    public ProgressPacket(int @is, int of) => (Is, Of, MomentOfCreation) = (@is, of, DateTime.Now);
+
+    #endregion
+
 }
