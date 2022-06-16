@@ -15,4 +15,12 @@ public class EmbededPacket<T> : SpottrPacket where T : SpottrPacket {
 
     #endregion
 
+    #region Constructor
+
+    public EmbededPacket(T packet, ResourceIdentity creator) :
+        base(DateTime.Now, creator) =>
+            Packet = packet;
+
+    #endregion
+
 }
