@@ -20,7 +20,9 @@ public class ProgressPacket : SpottrPacket {
 
     #region Constructors
 
-    public ProgressPacket(int @is, int of) => (Is, Of, MomentOfCreation) = (@is, of, DateTime.Now);
+    public ProgressPacket(int @is, int of, ResourceIdentity creator) :
+        base(DateTime.Now, creator) =>
+            (Is, Of) = (@is, of);
 
     #endregion
 
