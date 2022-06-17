@@ -15,7 +15,7 @@ public enum DisplayState {
     /// <remarks>This state typically represents errors, exceptions, etc.</remarks>
     Negative = 1,
     /// <summary>
-    /// This state is displayed in Spottr's negative category.
+    /// This state is displayed in Spottr's neutral category.
     /// </summary>
     /// <remarks>This state typically represents warnings.</remarks>
     Neutral = 2,
