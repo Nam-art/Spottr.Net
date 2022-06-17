@@ -1,4 +1,4 @@
-namespace Spottr.Net.Packets;
+namespace Spottr.Net;
 
 /// <summary>
 /// Represents a <see cref="ChartType"/> which enables Spottr to display data in different types of charts.
