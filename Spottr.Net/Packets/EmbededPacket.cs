@@ -1,4 +1,4 @@
-namespace Spottr.Net;
+namespace Spottr.Net.Packets;
 
 /// <summary>
 /// Represents a packet containing a packet.
@@ -12,6 +12,14 @@ public class EmbededPacket<T> : SpottrPacket where T : SpottrPacket {
     /// The packet embeded within this packet.
     /// </summary>
     public T? Packet { get; set; } = null;
+
+    #endregion
+
+    #region Constructor
+
+    public EmbededPacket(T packet, ResourceIdentity creator) :
+        base(DateTime.Now, creator) =>
+            Packet = packet;
 
     #endregion
 

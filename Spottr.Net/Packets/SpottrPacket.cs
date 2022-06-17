@@ -1,4 +1,4 @@
-namespace Spottr.Net;
+namespace Spottr.Net.Packets;
 
 /// <summary>
 /// Represents the basic requirements for a packet to be consumed by Spottr.
@@ -16,6 +16,13 @@ public abstract class SpottrPacket {
     /// </summary>
     /// <value></value>
     public ResourceIdentity? Creator { get; set; } = null;
+
+    #endregion
+
+    #region Constructor
+
+    public SpottrPacket(DateTime momentOfCreation, ResourceIdentity creator) =>
+        (MomentOfCreation, Creator) = (momentOfCreation, creator);
 
     #endregion
 
