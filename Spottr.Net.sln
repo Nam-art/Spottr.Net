@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spottr.Net.Rest", "Spottr.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spottr.Net.Sql", "Spottr.Net.Sql\Spottr.Net.Sql.csproj", "{B4E143D1-C63C-4ED9-A22A-C8A46962358B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spottr.Net.Tests", "Spottr.Net.Tests\Spottr.Net.Tests.csproj", "{5B72C4FC-DB57-4F51-B1DF-D46D70362C77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B4E143D1-C63C-4ED9-A22A-C8A46962358B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E143D1-C63C-4ED9-A22A-C8A46962358B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E143D1-C63C-4ED9-A22A-C8A46962358B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B72C4FC-DB57-4F51-B1DF-D46D70362C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B72C4FC-DB57-4F51-B1DF-D46D70362C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B72C4FC-DB57-4F51-B1DF-D46D70362C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B72C4FC-DB57-4F51-B1DF-D46D70362C77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
