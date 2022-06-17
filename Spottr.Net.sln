@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spottr.Net", "Spottr.Net\Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spottr.Net.Tcp", "Spottr.Net.Tcp\Spottr.Net.Tcp.csproj", "{26516C1F-9422-4A2D-9A73-7E4A5CB77FDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spottr.Net.Rest", "Spottr.Net.Rest\Spottr.Net.Rest.csproj", "{01AC488C-2B67-413E-86A3-E9D0169886DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{26516C1F-9422-4A2D-9A73-7E4A5CB77FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26516C1F-9422-4A2D-9A73-7E4A5CB77FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26516C1F-9422-4A2D-9A73-7E4A5CB77FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AC488C-2B67-413E-86A3-E9D0169886DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AC488C-2B67-413E-86A3-E9D0169886DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AC488C-2B67-413E-86A3-E9D0169886DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AC488C-2B67-413E-86A3-E9D0169886DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
