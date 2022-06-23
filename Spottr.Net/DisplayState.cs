@@ -1,4 +1,4 @@
-namespace Spottr.Net.Packets;
+namespace Spottr.Net;
 
 /// <summary>
 /// Represents a <see cref="DisplayState"/> which enables Spottr to categorize information visually.
